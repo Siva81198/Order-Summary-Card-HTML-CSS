@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#757F9A;
+    
+}
+
+.rectangle{
+    height: 550px;
+    width: 350px;
+    background-image: linear-gradient(45deg,#5f2c82,#49a09d);
+    margin:auto;
+    margin-top: 200px;
+    /* border: 4px solid black; */
+    border-radius: 20px;
+    position:relative ;
+
+}
+.box svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.pos1{
+    text-align: center;
+    color:black;
+}
+
+.p-pos{
+    text-align: center;
+    padding: 0px 40px;
+    color: white;
+}
+.rect-1{
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    background-image: linear-gradient(120deg,#2BC0E4,#EAECC6);
+    left: 15%;
+ 
+}
+.icon {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 10px;
+    left: 10px;
+  }
+
+
+.rect-1 .info h4{
+    padding-left: 20px;
+    margin-bottom: 0%;
+    margin-top: 15%;
+    
+}
+.rect-1 .info p{
+    padding-left: 20px;
+    margin-bottom: 20%;
+    margin-top: 0px;
+}
+
+.rect-1 .link{
+    padding-left: 26%;
+    padding-top: 8%;
+    
+}
+
+.pay{ 
+    position: absolute;
+    top: 80%;
+    left: 7%; 
+    width: 300px;
+    height: 50px;  
+    border-radius: 16px;
+    background-color:#0066ff;   
+    border: none;
+    
+    
+  
+    
+}
+.pay a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.cancel{
+    position: absolute;
+    top: 88%;
+    left: 36%;
+     
+}
+.cancel a{
+    text-decoration: none;
+    color: black;
+    font-size:15px; 
+}
+
+
+  
+
